@@ -13,13 +13,18 @@
 }
 .seccion0>.comprarahora{
     font-size: 1rem;
-    background:linear-gradient(to right, black,rgb(70, 65, 101));
+    background: radial-gradient(circle, rgb(23, 22, 26) 10%, rgb(2, 2, 2) 40%, rgb(0, 0, 0) 10%); 
     border-radius: 1rem;
     padding: 1rem;
     margin-top: 2rem;
     color: rgb(201, 201, 201);
     text-decoration: none;
     font-weight: 100;
+    transition: 150ms;
+}
+.seccion0>.comprarahora:hover{
+    font-size: 1.2rem;
+    transition: 200ms;
 }
 .seccion0 img{
     padding: 2rem;;
@@ -35,6 +40,8 @@
     flex-direction: column;
     align-items: center;
     font-size: 1.5rem;
+    text-align: center;
+    padding: 3rem;
 }
 .seccion2{
     color: #fbfbfd;
@@ -66,7 +73,7 @@
     color: #fbfbfd;
     text-decoration: none;
     border-radius: 1rem;
-    transition: 200ms;
+    transition: 100ms;
 }
 .seccion2 img{
     margin-top: 2rem;
@@ -93,12 +100,6 @@
     flex-direction: column;
     align-items: center;
 }
-.text{
-    padding:2rem;
-    font-size: 1rem;
-    font-weight: 100;
-    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.562);
-}
 .dimensiones{
     display: flex;
     flex-direction: row;
@@ -118,9 +119,26 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    color: white;
 }
 .textocarrusel{
+    background: #639DCF;
+    background: linear-gradient(to left, #ff9494 1%, #d1bbec 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2rem;
+}
+.seccionvideo{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:center;
+    align-items: center;
+}
+.video img{
+    margin-top: 10rem;
+    border-radius: 2rem;
+}
+.textovideo{
+    margin-top: 10rem;
     background: #639DCF;
     background: linear-gradient(to left, #ff9494 1%, #d1bbec 90%);
     -webkit-background-clip: text;
@@ -136,7 +154,11 @@
     }
     .seccion2top{
         font-size: 2rem;
-  
+        margin-bottom: 3rem;
+        margin-top: 10rem;
+    }
+    .seccion2top p{
+        margin-top: 2rem;
     }
     .seccion2{
         flex-direction:row;
@@ -158,11 +180,24 @@
         width:fit-content;
     }
     .seccioncarrusel{
+        margin-top: 10rem;
         flex-direction: row;
         padding: 2rem;
     }
     .textocarrusel{
         font-size: 3rem;
+        max-width: 34rem;
+        text-align:start
+    }
+    .seccion0>.comprarahora{
+        font-size: 1.6rem;
+    }
+    .seccionvideo{
+        flex-direction: row;
+        padding: 2rem;
+    }
+    .textovideo{
+        font-size: 2rem;
         max-width: 34rem;
         text-align:start
     }
