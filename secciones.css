@@ -113,6 +113,20 @@
     color: rgb(194, 194, 194);
     border-left:solid rgb(127, 127, 127) 2px ;
 }
+.seccioncarrusel{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+.textocarrusel{
+    background: #639DCF;
+    background: linear-gradient(to left, #ff9494 1%, #d1bbec 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2rem;
+}
 @media screen and (min-width:768px){
     .seccion0{
         font-size: 2.4rem;
@@ -142,5 +156,14 @@
         flex-shrink: 0;
         font-size: 1rem;
         width:fit-content;
+    }
+    .seccioncarrusel{
+        flex-direction: row;
+        padding: 2rem;
+    }
+    .textocarrusel{
+        font-size: 3rem;
+        max-width: 34rem;
+        text-align:start
     }
 }
