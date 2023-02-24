@@ -4,7 +4,7 @@
     margin:0;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background: rgb(0,0,0);
 }
 .navbar{
     background-color: white;
@@ -40,7 +40,7 @@ body{
     border-radius: 1rem;
 }
 .navbar-search:hover{
-    background:linear-gradient(to right, black 10%,rgb(40, 40, 40)60%);
+    background:linear-gradient(to right, black 10%,rgb(47, 36, 57)60%);
     padding-right: 10rem;
     border-radius: 1rem;
     transition: 200ms;
