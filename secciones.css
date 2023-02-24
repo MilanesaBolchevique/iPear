@@ -134,6 +134,8 @@
 .video img{
     margin-top: 10rem;
     border-radius: 2rem;
+    width: 90%;
+    margin-left: 2rem;
 }
 .textovideo{
     margin-top: 10rem;
@@ -142,6 +144,79 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 2rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfd;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.footer a{
+    text-decoration: none;
+
+}
+.secfoot1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    margin-right: 2rem;
+}
+.secfoot1 a{
+    color: #000000;
+    transition: 300ms;
+}
+.secfoot1 a:hover{
+    font-size: 1.2rem;
+    transition: 200ms;
+}
+.secfoot1>.foot1>ul{
+    list-style: none;
+}
+.secfoot1>.foot2>ul{
+    list-style: none;
+}
+.secfoot1 li{
+    margin-top: 2rem;
+}
+.secfoot2{
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.foot3 a{
+    color: #639DCF;
+}
+.foot4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color:#81878e;
+}
+.foot5{
+    display: flex;
+    flex-direction: row;
+}
+.foot5 ul{
+    margin-left: -2rem;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: .8rem;
+}
+.foot5 li{
+    color: #9580a9;
+    margin-top: 2rem;
+}
+.foot5 a{
+    color: #81878e;
 }
 @media screen and (min-width:768px){
     .seccion0{
@@ -198,5 +273,15 @@
         font-size: 2rem;
         max-width: 34rem;
         text-align:start
+    }
+    .foot5 ul{
+        justify-content: center;
+        flex-direction: row;  
+    }
+    .foot5 li{
+        padding-right: 3rem;
+        padding-left: 3rem;
+        border-right: solid grey 1px;
+        border-left: solid grey 1px;
     }
 }
