@@ -114,6 +114,7 @@
     flex-shrink: 0;
 }
 .seccioncarrusel{
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -265,6 +266,31 @@
     color: #81878e;
 }
 @media screen and (min-width:768px){
+    .textovideo{
+        font-size: 1.3rem;
+        max-width: 34rem;
+        text-align:start
+    }
+    .textocarrusel{
+        font-size: 1.5rem;
+        max-width: 34rem;
+        text-align:start;
+        width: 30%;
+        margin-left: -10rem;
+    }
+    .seccioncarrusel{
+        flex-direction: row;
+        margin-left: -10rem;
+    }
+    .tarjeta{
+        width:45%;
+    }
+    .ventajas{
+        flex-direction: row;
+        gap:2rem;
+    }
+}
+@media screen and (min-width:1024px){
     .seccion0{
         font-size: 2.4rem;
     }
