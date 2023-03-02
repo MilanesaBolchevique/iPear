@@ -329,6 +329,9 @@
         flex-direction: row;
         padding: 2rem;
     }
+    .seccioncarrusel{
+        margin-left: -20rem;
+    }
     .textocarrusel{
         font-size: 3rem;
         max-width: 34rem;
