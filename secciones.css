@@ -144,7 +144,7 @@
     -webkit-text-fill-color: transparent;
 }
 .tarjeta{
-    box-shadow: 0px 0px 880px 34px rgba(205, 186, 255, 0.16);
+    box-shadow: 0px 0px 880px 34px rgba(205, 186, 255, 0.05);
     width: 80%;
     font-size: 1rem;
     font-weight: 100;
@@ -160,7 +160,7 @@
     padding: 3rem;
     border-top-right-radius: 1rem;
     border-top-left-radius:1rem ;
-    background:linear-gradient(to right, rgb(20, 20, 20),rgb(37, 35, 52));
+    background:linear-gradient(to right, rgb(0, 0, 0)30%,rgb(23, 22, 33));
     text-transform: uppercase;
 }
 .tarjeta-bottom{
@@ -190,10 +190,11 @@
     -webkit-text-fill-color: transparent;
     padding: 2rem;
 }
+
 .footer{
     display: flex;
     flex-direction: column;
-    background-color: #fbfbfd;
+    background-color: rgb(240, 240, 240);
     padding-top: 2rem;
     padding-bottom: 3rem;
 }

@@ -7,7 +7,7 @@ body{
     background: rgb(0,0,0);
 }
 .navbar{
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,8 +32,7 @@ body{
     margin: 1rem;
 }
 .navbar-search{
-    background-color: #ffffff;
-    padding: .4rem;
+        padding: .4rem;
     display:flex;
     margin-right: 1rem;
     transition:200ms;
@@ -65,7 +64,7 @@ body{
 }
 .navbar-right>ul{
     cursor: pointer;
-    background-color:#ffffff;
+    background-color: rgb(240, 240, 240);
     padding: 2rem;
     margin-top: 40rem;
     left: 0;
