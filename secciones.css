@@ -111,6 +111,7 @@
     list-style: none;
     color: rgb(194, 194, 194);
     border-left:solid rgb(127, 127, 127) 2px ;
+    flex-shrink: 0;
 }
 .seccioncarrusel{
     display: flex;
@@ -124,6 +125,50 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 2rem;
+}
+.ventajas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.ventajastop{
+    text-align: center;
+    padding: 5rem;
+    font-size: 5rem;
+    background: linear-gradient(to left, #94a2ff 1%, #d1bbec 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tarjeta{
+    box-shadow: 0px 0px 880px 34px rgba(205, 186, 255, 0.16);
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 2rem;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #fbfbfd;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+.tarjeta-top{
+    padding: 3rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius:1rem ;
+    background:linear-gradient(to right, rgb(20, 20, 20),rgb(37, 35, 52));
+    text-transform: uppercase;
+}
+.tarjeta-bottom{
+    padding: 3rem;
+    text-align:start;
+    background: linear-gradient(to left, #94a2ff 1%, #d1bbec 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .seccionvideo{
     display: flex;
@@ -265,9 +310,17 @@
     .seccion0>.comprarahora{
         font-size: 1.6rem;
     }
+    .ventajas{
+        flex-direction: row;
+        width: 100%;
+    }
+    .tarjeta{
+        width: 30%;
+        margin: 2rem;
+    }
     .seccionvideo{
         flex-direction: row;
-        padding: 2rem;
+        padding: 3rem;
     }
     .textovideo{
         font-size: 2rem;
