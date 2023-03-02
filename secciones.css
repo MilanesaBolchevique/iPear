@@ -202,4 +202,18 @@
     .navbar-right>.navbar-menu{
         display: none;
     }
+    #menuocultoWeb{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        list-style: none;
+        padding-left: 0;
+    }
+    #menuocultoWeb .menulinkWeb{
+        font-size: 1.25rem;
+        text-decoration: none;
+        padding: 1rem;
+        border-left: #e1e1e1;
+    }
 }
+

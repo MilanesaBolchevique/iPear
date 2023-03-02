@@ -105,5 +105,7 @@ body{
     display: none;
     font-weight: 500;
     margin-right: 1rem;
-    
+}
+#menuocultoWeb{
+    display: none;
 }
