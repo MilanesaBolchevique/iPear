@@ -265,6 +265,42 @@
 .foot5 a{
     color: #81878e;
 }
+.formulario{
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 100px;
+    border-bottom: #000000;
+   
+}
+.correo{
+    padding-top: 20px;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    text-align: center;
+   
+
+}
+.formulariolinks{
+    margin-top: 2rem;
+}
+
+.formulariolinks>a{
+    
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background:linear-gradient(to right, black,rgb(70, 65, 101));
+    border-radius: .4rem;
+}
+.formulariolinks>a:hover{
+    background:linear-gradient(to right, black,rgb(99, 91, 148));
+    color: #fbfbfd;
+    text-decoration: none;
+    border-radius: 1rem;
+    transition: 200ms;
+}
 @media screen and (min-width:768px){
     .textovideo{
         font-size: 1.3rem;
