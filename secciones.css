@@ -137,6 +137,7 @@
     flex-wrap: wrap;
 }
 .ventajastop{
+    margin-top: 5rem;
     text-align: center;
     padding: 5rem;
     font-size: 5rem;
@@ -192,7 +193,7 @@
     padding: 2rem;
 }
 .seccion5{
-    padding-top: 1rem;
+    padding-top: 6rem;
     padding-bottom: 9rem;
     margin-bottom: -3rem;
     color: white;
@@ -392,12 +393,12 @@
         width: 35rem;
     }
     .seccion2top{
-        font-size: 2rem;
-        margin-bottom: 3rem;
+        font-size: 1.8rem;
+        margin-bottom: -2rem;
         margin-top: 10rem;
     }
     .seccion2top p{
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     .seccion2{
         flex-direction:row;
@@ -405,7 +406,7 @@
         align-items: center;
     }
     .seccion2 img{
-        width:40%;
+        width:50%;
         align-self: flex-start;
         margin-right: 2rem;
     }
