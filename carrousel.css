@@ -19,7 +19,7 @@
 }
 .carrusel-elemento {
     float: left;
-    width: 33.333%;
+    width: 33.3333%;
 }
 @-moz-keyframes automatizacion {
     0% {
@@ -92,6 +92,6 @@
 }
 @media screen and (min-width:768px){
     #carrusel-contenido {
-        width: 32%;
+        width: 25%;
     }
 }
